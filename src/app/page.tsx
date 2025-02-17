@@ -1,7 +1,7 @@
 // import Welcome from "@/components/Welcome";
 
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar2";
+import Navbar from "@/components/Navbar";
 import About from "@/components/About";
 import WhyUs from "@/components/WhyUs";
 import Services from "@/components/Services";
