@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
 import Image from "next/image"
-
+import AboutPic from "../../public/Images/about.png"
 const About = () => {
   return (
     <section id="about" className="min-h-screen py-20 px-8 lg:px-16 ">
@@ -87,7 +87,7 @@ const About = () => {
                 className="aspect-[4/5] rounded-lg overflow-hidden"
               >
                 <Image
-                  src={"/images/about.png"}
+                  src={AboutPic}
                   alt="Interior Design Studio"
                   className="w-full h-full object-cover"
                   width={1000}
