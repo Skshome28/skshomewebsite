@@ -87,7 +87,7 @@ const About = () => {
                 className="aspect-[4/5] rounded-lg overflow-hidden"
               >
                 <Image
-                  src="/images/about.png"
+                  src={"/images/about.png"}
                   alt="Interior Design Studio"
                   className="w-full h-full object-cover"
                   width={1000}
