@@ -1,30 +1,34 @@
 "use client"
 import { motion } from "framer-motion"
 import Image from "next/image";
+import KitchenPic from "../../public/Images/kitchen.png"
+import HomePic from "../../public/Images/home.png"
+import OfficePic from "../../public/Images/office.png"
+import TurnkeyPic from "../../public/Images/turnkey.png"
 // import { Button } from "./ui/button";
 const services = [
     {
       title: "Modular Kitchen",
       description: "End-to-end kitchen solutions from design to installation",
-      image: "/images/kitchen.png",
+      image:KitchenPic,
       size: "large"
     },
     {
       title: "Modular Home Furniture",
       description: "Custom home furniture that maximizes space and style",
-      image: "/images/home.png",
+      image: HomePic,
       size: "medium"
     },
     {
       title: "Modular Office Furniture",
       description: "Professional workspace solutions for maximum productivity",
-      image: "/images/office.png",
+      image: OfficePic,
       size: "medium"
     },
     {
       title: "Turnkey Projects",
       description: "Complete interior solutions for your entire space",
-      image: "/images/turnkey.png",
+      image: TurnkeyPic,
       size: "large"
     }
   ];
