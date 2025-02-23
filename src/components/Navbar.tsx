@@ -22,9 +22,9 @@ const Navbar = () => {
     setToggleMobile(false)
   }
   return (
-    <div className="bg-transparent  w-full h-auto py-2 backdrop-blur-sm fixed z-50 px-10">
+    <div className="bg-transparent w-full h-auto py-2 backdrop-blur-sm fixed z-50 px-10">
             <div className="flex justify-between items-center">
-                <Image width={200} height={200} alt="logo" className="w-[70px] lg:w-[100px] h-[50px] lg:h-[80px] rounded-lg" src="/logo.jpg"/>
+                <Image width={200} height={200} alt="logo" className="w-[70px] lg:w-[100px] h-[50px] lg:h-[80px] rounded-lg" src="/logo.png"/>
                 <span className="w-auto h-full p-4 hidden lg:block">
                 <ul className=" w-full h-full  flex flex-row justify-evenly gap-16 text-xl font-outfit font-normal text-primary-beige">
 
