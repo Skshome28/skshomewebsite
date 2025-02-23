@@ -76,32 +76,32 @@ const Contact = () => {
           
           <div className="space-y-6">
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-primary-beige bg-opacity-10 rounded-full flex items-center justify-center">
-                <Mail className="w-6 h-6 text-primary-beige" />
+              <div className="w-8 h-8 md:w-12 md:h-12 bg-primary-beige bg-opacity-10 rounded-full flex items-center justify-center">
+                <Mail className="  w-4 h-6 md:w-6 md:h-6 text-primary-beige" />
               </div>
               <div>
                 <p className="text-sm text-gray-600">Email</p>
-                <p className="text-lg">skshomeinteriors@gmail.com</p>
+                <p className=" text-md md:text-lg">skshomeinteriors@gmail.com</p>
               </div>
             </div>
 
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-primary-beige bg-opacity-10 rounded-full flex items-center justify-center">
-                <Phone className="w-6 h-6 text-primary-beige" />
+              <div className="w-8 h-8 md:w-12 md:h-12 bg-primary-beige bg-opacity-10 rounded-full flex items-center justify-center">
+                <Phone className="md:w-6 md:h-6 w-4 h-4 text-primary-beige" />
               </div>
               <div>
                 <p className="text-sm text-gray-600">Phone</p>
-                <p className="text-lg">+919130792151</p>
+                <p className="text-md md:text-lg">+919130792151</p>
               </div>
             </div>
 
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-primary-beige bg-opacity-10 rounded-full flex items-center justify-center">
-                <MapPin className="w-6 h-6 text-primary-beige" />
+              <div className="w-8 h-8 md:w-12 md:h-12 bg-primary-beige bg-opacity-10 rounded-full flex items-center justify-center">
+                <MapPin className=" md:w-6 md:h-6 w-4 h-4 text-primary-beige" />
               </div>
               <div>
                 <p className="text-sm text-gray-600">Address</p>
-                <p className="text-lg">Shubheccha Residency,Jagtap Dairy,Pune- 411027</p>
+                <p className=" text-md md:text-lg">Shubheccha Residency,Jagtap Dairy,Pune- 411027</p>
               </div>
             </div>
           </div>

@@ -22,7 +22,7 @@ const Hero = () => {
         />
       </video>
 
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/30" />
 
       <div className="relative h-full flex items-center justify-center text-center">
         <div className="max-w-6xl px-4">
@@ -41,7 +41,7 @@ const Hero = () => {
           viewport={{
             once:true
           }}
-          className="text-6xl md:text-8xl  md:leading-[90px]  text-white mb-6  ">
+          className=" text-[40px] leading-[40px]  md:text-8xl  md:leading-[90px]  text-white mb-6  ">
           Crafting Spaces Beyond Imagination
           </motion.h1>
           <motion.div initial={{
