@@ -28,7 +28,7 @@ const Navbar = () => {
                 <span className="w-auto h-full p-4 hidden lg:block">
                 <ul className=" w-full h-full  flex flex-row justify-evenly gap-16 text-xl font-outfit font-normal text-primary-beige">
 
-                {["Home","About", "Why us", "Services" ,"Process" ,"Contact"].map((item)=>(
+                {["Home","About", "Why us", "Services" ,"Process","Testimonials" ,"Contact"].map((item)=>(
                     <Link key={item} href={`#${item.toLowerCase()}`} className=" relative inline-block text-black after:content-[''] after:absolute after:w-0 after:h-[2px] after:bg-primary-beige after:left-0 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full">{item}</Link>
                 ))}
                 
@@ -52,6 +52,7 @@ const Navbar = () => {
                     <Link href="/#why-choose-us" className="hover:text-primary-green cursor-pointer"onClick={handleClose}>Why Us</Link>
                     <Link href="/#services" className="hover:text-primary-green cursor-pointer" onClick={handleClose}>Services</Link>
                     <Link href="/#process" className="hover:text-primary-green cursor-pointer" onClick={handleClose}>Process</Link>
+                    <Link href="/#testimonials" className="hover:text-primary-green cursor-pointer" onClick={handleClose}>Testimonials</Link>
                     <Link href="/#contact" className="hover:text-primary-green cursor-pointer" onClick={handleClose}>Contact</Link>
 
                     
